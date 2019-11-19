@@ -1,0 +1,58 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+
+html {	
+	font-family: $global-font-family;
+	font-size: $global-font-size;
+	background-color: $global-background-color;
+	color: $global-color;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+a, .link {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover, .link:hover {
+	color: #f63e30;
+	text-decoration: none;
+} 
+
+img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+p, ul, ol, figure {
+	margin: 0;
+}
+
+* + p, * + ul, * + ol, * + figure {
+	margin-top: 0;	
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+* + h1, * + h2, * + h3, * + h4, * + h5, * + h6  {
+	margin-top: 0;	
+}
+
+.wrapper {
+	overflow: hidden;
+	position: relative;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
