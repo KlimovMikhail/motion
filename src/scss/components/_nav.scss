@@ -1,0 +1,13 @@
+.nav-item {
+  padding: 0 12px;
+  &.is-active {
+    color: #f63e30;
+    text-decoration: none;
+  }
+  &:hover {
+    border-bottom: 3px solid #f63e30;
+    padding-bottom: 23px;
+    color: #f63e30;
+    text-decoration: none;
+  }
+}

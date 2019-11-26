@@ -1,0 +1,27 @@
+.button { 
+	padding: 8px 10px;
+  text-decoration: none;
+  border: 1px solid #f63e30;
+  cursor: pointer;
+  background-color: #f63e30;
+  max-height: 40px;
+  max-width: 100px;
+  &-link {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 300;
+    &:hover {
+      background-color: #f63e30;
+      color: #ffffff;
+      border-color: #f63e30;
+      opacity: 0.5;
+      text-decoration: none;
+    }
+  }
+  &-services, 
+  &-form {
+    min-width: 100%;
+    height: auto;
+    text-align: center;
+  }
+}

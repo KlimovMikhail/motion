@@ -1,0 +1,29 @@
+.grid {
+  display: block;
+  &-item {
+    padding: 20px 25px;
+  }
+}
+
+@media(min-width: 640px) {
+  .grid {
+    @include flex($f-dir: row);
+    margin: 0 -25px;
+    &-item {
+      padding: 20px 25px;
+    }
+  }
+  .border-left {
+    border-left: 2px solid #f63e30;
+  }
+}
+
+@media(min-width: 960px) {
+  .grid {
+    @include flex($f-dir: row);
+    margin: 0 -25px;
+    &-item {
+      padding: 0 25px;
+    }
+  }
+}

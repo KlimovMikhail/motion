@@ -2,9 +2,7 @@
   background-color: #000000;
   padding: 30px 0;
   & .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flex($just-content: space-between, $f-dir: row);
   }
   & .logo {
     color: #ffffff;
